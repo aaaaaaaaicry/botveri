@@ -8,6 +8,7 @@ const {
   PermissionsBitField,
 } = require("discord.js");
 require("dotenv").config();
+require("./server");
 
 const PREFIX = "!";
 const {
